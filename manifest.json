@@ -4,8 +4,10 @@
   "version": "1.0.1",
   "description": "Avoids translated views in Google; automatically clicks on 'View original'.",
   "icons": {
-    "128": "icons/icon128.png"
-  },
+  "16": "icons/icon16.png",
+  "48": "icons/icon48.png",
+  "128": "icons/icon128.png"
+},
   "permissions": [],
   "host_permissions": [
     "https://*/*",
