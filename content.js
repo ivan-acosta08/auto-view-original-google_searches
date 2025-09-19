@@ -39,10 +39,10 @@ function isVisible(el) {
 
 function clickElement(el) {
   try {
+    el.focus({ preventScroll: true });
     el.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, view: window }));
-  } catch {
-    // fallback
-    el.click?.();
+  } catch (e) {
+    console.error(e);
   }
 }
 
