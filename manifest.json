@@ -1,5 +1,5 @@
 {
-  "manifest_version": 4,
+  "manifest_version": 3,
   "name": "Google: Auto 'See original'",
   "version": "1.0.3",
   "description": "Avoids translated views in Google; automatically clicks on 'View original'.",
